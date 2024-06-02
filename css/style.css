@@ -161,6 +161,9 @@ footer .icons i:hover {
 .copyright p {
   font-size: 0.7em;
 }
+.copyright p a {
+  font-size: 1em;
+}
 .copyright p a strong {
   color: #008d85;
 }
@@ -260,7 +263,7 @@ footer .icons i:hover {
   }
 
   .info {
-    padding: 4.5em 0;
+    padding: 4.5em 0 4em 0;
   }
   .info h5 {
     font-size: 1.1em;
@@ -307,7 +310,7 @@ footer .icons i:hover {
   }
 
   .info {
-    padding: 4em 0;
+    padding: 3.5em 0 3em 0;
   }
   .info h5 {
     font-size: 0.9em;
@@ -324,7 +327,7 @@ footer .icons i:hover {
   }
 
   iframe {
-    height: 19em;
+    height: 20em;
   }
 
   footer {
@@ -358,7 +361,7 @@ footer .icons i:hover {
   }
 
   .info {
-    padding: 2.5em 0;
+    padding: 2.5em 0 2em 0;
   }
   .info h5 {
     font-size: 0.7em;
