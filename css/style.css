@@ -95,6 +95,24 @@ header nav .logo img {
   text-align: center;
   margin-bottom: 0.5em;
 }
+.info a {
+  display: flex;
+  justify-content: center;
+}
+.info a button {
+  padding: 0.5em 2.5em;
+  color: #7e247c;
+  font-size: 1.15em;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 2.5em;
+  background: transparent;
+  border: 2px solid #7e247c;
+}
+.info a button:hover {
+  cursor: pointer;
+  transform: scale(1.03)
+}
 
 .forms {
   padding-bottom: 6em;
@@ -181,10 +199,13 @@ footer .icons i:hover {
   }
 
   .info {
-    padding: 5.5em 0;
+    padding: 5.5em 0 5em 0;
   }
   .info h5 {
     font-size: 1.4em;
+  }
+  .info a button {
+    font-size: 1em;
   }
 
   .forms {
@@ -222,7 +243,7 @@ footer .icons i:hover {
   }
 
   .info {
-    padding: 5em 0;
+    padding: 5em 0 4.5em 0;
   }
   .info h5 {
     font-size: 1.2em;
@@ -267,6 +288,9 @@ footer .icons i:hover {
   }
   .info h5 {
     font-size: 1.1em;
+  }
+  .info a button {
+    margin-top: 2em;
   }
 
   .forms {
@@ -315,7 +339,10 @@ footer .icons i:hover {
   .info h5 {
     font-size: 0.9em;
   }
-
+  .info a button {
+    border: 1px solid #7e247c;
+  }
+  
   .forms {
     padding-bottom: 3em;
   }
