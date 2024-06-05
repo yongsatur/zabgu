@@ -1,5 +1,3 @@
-/*jslint node: true */
-
 'use strict';
 
 new WOW().init();
@@ -24,14 +22,16 @@ $('#google_form_1').on('submit', function (e) {
 	Swal.fire({
 		timer: 4000,
 		timerProgressBar: true,
+		confirmButtonColor: "#008d85",
+		confirmButtonText: "Отлично!",
+		focusConfirm: false,
+		text: 'Ваша заявка была успешно отправлена!',
 		showClass: {
 			popup: 'animate__animated animate__fadeInDown'
 		},
 		hideClass: {
 			popup: 'animate__animated animate__fadeOutUp'
-		},
-		text: 'Ваша заявка была успешно отправлена!',
-		padding: '1.5em'
+		}
 	});
 	setTimeout(function () {
 		$('#google_form_1')[0].reset();
@@ -45,28 +45,32 @@ window.addEventListener('message', function(e) {
 		Swal.fire({
 			timer: 4000,
 			timerProgressBar: true,
+			confirmButtonColor: "#008d85",
+			confirmButtonText: "Отлично!",
+			focusConfirm: false,
+			text: 'Ваша статья была успешно отправлена!',
 			showClass: {
 				popup: 'animate__animated animate__fadeInDown'
 			},
 			hideClass: {
 				popup: 'animate__animated animate__fadeOutUp'
-			},
-			text: 'Ваша статья была успешно отправлена!',
-			padding: '1.5em'
+			}
 		});
 	}
 	else if (message == 'Ошибка!')  {
 		Swal.fire({
 			timer: 4000,
 			timerProgressBar: true,
+			confirmButtonColor: "#008d85",
+			confirmButtonText: "Отлично!",
+			focusConfirm: false,
+			text: 'При загрузке файла произошла ошибка!',
 			showClass: {
 				popup: 'animate__animated animate__fadeInDown'
 			},
 			hideClass: {
 				popup: 'animate__animated animate__fadeOutUp'
-			},
-			text: 'При загрузке файла произошла ошибка!',
-			padding: '1.5em'
+			}
 		});
 	}
 } , false);

@@ -95,9 +95,14 @@ header nav .logo img {
   text-align: center;
   margin-bottom: 0.5em;
 }
+.info p {
+  margin: 0.5em 1.5em;
+}
 .info a {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 .info a button {
   padding: 0.5em 2.5em;
@@ -111,7 +116,10 @@ header nav .logo img {
 }
 .info a button:hover {
   cursor: pointer;
-  transform: scale(1.03)
+  transform: scale(1.03);
+}
+.info a button:focus {
+  outline: none;
 }
 
 .forms {
@@ -129,6 +137,9 @@ header nav .logo img {
 }
 .forms a:hover {
   color: #7e247c;
+}
+.forms .google_form_2 p {
+  padding-top: 1em;
 }
 
 iframe {
@@ -351,6 +362,9 @@ footer .icons i:hover {
   }
   .forms p {
     font-size: 0.6em;
+  }
+  .forms .google_form_2 p {
+    padding-top: 0;
   }
 
   iframe {
