@@ -278,6 +278,9 @@ footer .icons i:hover {
   .forms .agreement p {
     font-size: 0.8em;
   }
+  .forms .line {
+    height: 2px;
+  }
 
   footer {
     padding: 2.5em 0;
@@ -372,6 +375,9 @@ footer .icons i:hover {
   .forms .agreement p {
     padding-top: 2em;
     font-size: 0.6em;
+  }
+  .forms .line {
+    height: 1px;
   }
 
   footer {
@@ -691,5 +697,19 @@ input[type="submit"]:focus, button:focus {
     padding: 0.8em 0;
     font-size: 0.7em;
     margin-top: 1.5em;
+  }
+}
+@media (max-width: 480px) {
+  label {
+    font-size: 0.6em;
+    padding: 1.2em 0 0.6em 1.3em;
+  }
+  input[type="text"], input[type="email"], input[type="tel"], 
+  textarea, select, .file_upload {
+    padding: 0.7em 1.3em;
+    font-size: 0.6em;
+  }
+  input[type="submit"], button {
+    font-size: 0.6em;
   }
 }
