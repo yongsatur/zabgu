@@ -38,5 +38,5 @@ $('#google_form_1').on('submit', function (e) {
 	});
 	setTimeout(function () {
 		$('#google_form_1')[0].reset();
-	}, 1000);
+	}, 2000);
 });

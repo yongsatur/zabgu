@@ -57,9 +57,7 @@ function sendData() {
                     popup: 'animate__animated animate__fadeOutUp'
                 }
             });
-            setTimeout(function () {
-                $('#google_form_2')[0].reset();
-            }, 1000);
+            $('#google_form_2')[0].reset();
         })
         .catch(err => {
             Swal.fire({
@@ -76,9 +74,7 @@ function sendData() {
                     popup: 'animate__animated animate__fadeOutUp'
                 }
             });
-            setTimeout(function () {
-                $('#google_form_2')[0].reset();
-            }, 1000);
+            $('#google_form_2')[0].reset();
         })
     })
 }
