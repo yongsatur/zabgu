@@ -2,6 +2,8 @@
 
 new WOW().init();
 
+/* ----- Скролл вверх ----- */
+
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -16,10 +18,25 @@ $(document).ready(function () {
     });
 });
 
-$('.file_upload input[type=file]').on('change', function(){
-	let file = this.files[0];
-	$(this).next().html(file.name);
+/* ----- Маска на телефон ----- */
+
+$(function() {
+    $('.phone').mask('+0 (000) 000-00-00');
 });
+
+/* ----- Изменение стиля input['files'] ----- */
+
+$('.file_upload input[type=file]').on('change', function(){
+	if (this.files.length > 1) {
+		$(this).next().html('Число файлов: ' + this.files.length);
+	}
+	else {
+		let file = this.files[0];
+		$(this).next().html(file.name);
+	}
+});
+
+/* ----- Модальное окно ----- */
 
 $('#google_form_1').on('submit', function (e) {
 	Swal.fire({

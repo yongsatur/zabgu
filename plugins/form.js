@@ -10,6 +10,8 @@ window.addEventListener('load', function () {
     })
 })
 
+/* ----- Отправка данных на Google Drive ----- */
+
 function sendData() {
     let data = new FormData(), uploadFiles = [], promiseList = [];
     const articles = document.querySelector('#files'),
