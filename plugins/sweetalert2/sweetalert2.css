@@ -322,6 +322,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   background-color: #7066e0;
   color: #fff;
   font-size: 1em;
+  margin: 0;
 }
 div:where(.swal2-container) button:where(.swal2-styled).swal2-deny {
   border: 0;
