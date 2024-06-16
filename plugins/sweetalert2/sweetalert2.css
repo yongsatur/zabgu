@@ -1103,7 +1103,6 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 @media (max-width: 767px) {
   div:where(.swal2-container) div:where(.swal2-popup) {
     width: 25em;
-    padding: 1.3em;
   }
   div:where(.swal2-container) .swal2-html-container {
     margin: 1em 0.5em 1.3em;
@@ -1116,7 +1115,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 @media (max-width: 575px) {
   div:where(.swal2-container) div:where(.swal2-popup) {
     width: 20em;
-    padding: 1em;
+    padding: 1.3em;
   }
   div:where(.swal2-container) .swal2-html-container {
     margin: 1em 0.5em 1.2em;
